@@ -154,11 +154,11 @@ This project demonstrates how customer data can be transformed into **actionable
 | File | Description |
 |---|---|
 | `Churn_Dashboard.pbix` | Power BI dashboard file |
-| `Dashboard1.png` | Dashboard view 1 |
-| `Dashboard2.png` | Dashboard view 2 |
-| `Dashboard3.png` | Dashboard view 3 |
-| `Dashboard4.png` | Dashboard view 4 |
-| `Dashboard5.png` | Dashboard view 5 |
+| `Dashboard-1.jpeg` | Dashboard view 1 |
+| `Dashboard-2.jpeg` | Dashboard view 2 |
+| `Dashboard-3.jpeg` | Dashboard view 3 |
+| `Dashboard-4.jpeg` | Dashboard view 4 |
+| `Dashboard-5.jpeg` | Dashboard view 5 |
 
 ---
 
