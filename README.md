@@ -5,14 +5,12 @@
 
 ## 📌 Objective  
 
-The objective of this task is to analyze customer behavior and identify patterns behind **customer churn and retention**.  
+The goal of this task is to analyze customer behavior in a subscription-based business and build a professional dashboard that answers key retention-related questions:
 
-This project focuses on answering key business questions such as:  
-
-- Why are customers leaving?  
-- Which customer segments have the highest churn?  
-- How does customer tenure affect retention?  
-- What actions can improve long-term customer engagement?  
+- Why are customers leaving the service?  
+- Which customer segments are most likely to churn?  
+- How does customer tenure impact retention?  
+- What strategies can help reduce churn and improve retention?  
 
 ---
 
@@ -20,7 +18,7 @@ This project focuses on answering key business questions such as:
 
 | Tool | Purpose |
 |---|---|
-| **Power BI Desktop** | Dashboard development & data visualization |
+| **Power BI Desktop** | Dashboard creation & interactive visualization |
 | **Telco Customer Churn Dataset** | Customer behavior & churn analysis |
 
 ---
@@ -29,99 +27,71 @@ This project focuses on answering key business questions such as:
 
 - **Name:** Telco Customer Churn Dataset  
 - **Source:** https://www.kaggle.com/datasets/blastchar/telco-customer-churn  
-- **Domain:** Telecom / Subscription-based business  
-
-### 🔑 Key Features  
-
-- Customer ID  
-- Gender  
-- Tenure  
-- Contract Type  
-- Payment Method  
-- Monthly Charges  
-- Internet Service  
-- Churn (Yes/No)  
+- **Scope:** Customer demographics, services, payment behavior, tenure, and churn status  
 
 ---
 
-## 🛠️ Data Preparation & Transformation  
+## 🛠️ Data Preparation  
 
-### 🔹 Data Cleaning  
-- Handled missing and null values  
-- Ensured correct data types (categorical & numerical)  
-
-### 🔹 Data Transformation  
-- Created calculated measures:  
-  - **Churn Rate (%)**  
-  - **Retention Rate (%)**  
-  - **Revenue Lost**  
-- Created custom column:  
-  - **Tenure Groups** (0–1 Year, 1–2 Years, 2–4 Years, 4+ Years)  
-
-### 🔹 Data Modeling  
-- Applied relationships and aggregations  
-- Built dynamic measures for real-time filtering  
+- Cleaned missing and null values to ensure data consistency  
+- Converted columns into appropriate data types  
+- Created calculated measures for:
+  - Churn Rate  
+  - Retention Rate  
+  - Revenue Lost  
+- Grouped customers into tenure categories (0–1 Year, 1–2 Years, etc.)  
 
 ---
 
 ## 📊 Dashboard Overview  
 
-The Power BI dashboard provides a complete view of customer churn behavior through KPIs and visual insights.
+The interactive Power BI dashboard analyzes customer churn through multiple business dimensions:
+
+### 🔘 Filter Slicers  
+Dynamic filters to explore data by:
+- **Gender**  
+- **Contract Type**  
+- **Internet Service**  
+
+---
+
+### 📊 Churn by Contract  
+
+A comparison of churn across contract types shows that **month-to-month customers have the highest churn**, while long-term contracts significantly improve retention.  
+
+---
+
+### 💳 Churn by Payment Method  
+
+Customers using **electronic check** show higher churn rates compared to those using automatic payment methods, indicating behavioral differences in customer engagement.  
+
+---
+
+### ⏳ Churn by Tenure  
+
+Churn is highest among customers in the **first year**, while customers with longer tenure are more stable and less likely to leave.  
+
+---
 
 ### 💰 KPI Summary Cards  
 
-| Metric | Description |
+| Metric | Value |
 |---|---|
-| Total Customers | Total number of customers |
+| Total Customers | Overall customer base |
 | Churn Customers | Customers who left |
-| Churn Rate | % of customers who churned |
-| Retention Rate | % of customers retained |
-| Revenue Lost | Estimated revenue loss due to churn |
-| Avg Tenure Churned | Average duration before churn |
-
----
-
-### 📉 Churn Analysis  
-
-#### 📊 Churn by Contract  
-- Month-to-month contracts show the highest churn (~42%+)  
-- Long-term contracts significantly reduce churn  
-
-#### 💳 Churn by Payment Method  
-- Electronic check users have the highest churn  
-- Automatic payment methods show lower churn rates  
-
-#### ⏳ Churn by Customer Tenure  
-- Customers in 0–1 year category churn the most  
-- Long-term customers (4+ years) are more stable  
-
----
-
-### 🔘 Interactive Filters  
-
-- Gender  
-- Contract Type  
-- Internet Service  
+| Churn Rate | % of churned customers |
+| Retention Rate | % of retained customers |
+| Revenue Lost | Estimated loss due to churn |
 
 ---
 
 ## 💡 Key Business Insights  
 
-- ⚠️ Month-to-month customers are the highest churn segment  
-- 💳 Electronic check users are more likely to churn  
-- ⏳ Most churn occurs within the first year  
-- 📉 Churn directly impacts revenue loss  
-- 📈 Long-term contracts and auto-pay improve retention  
-
----
-
-## 🎯 Recommendations  
-
-- Offer incentives to convert month-to-month users into long-term contracts  
-- Encourage auto-payment methods  
-- Improve onboarding for new customers  
-- Implement early churn detection strategies  
-- Reward long-term customers  
+- 🚨 **Month-to-month contracts drive the highest churn**, making them the most critical segment to address  
+- 💳 **Payment method impacts retention**, with electronic check users showing higher churn behavior  
+- ⏳ **Customer lifecycle matters**, as most churn happens within the first year  
+- 📉 **Retention improves with tenure**, indicating strong long-term customer loyalty  
+- 💸 **Churn directly affects revenue**, highlighting the importance of retention strategies  
 
 ---
 
@@ -137,15 +107,18 @@ The Power BI dashboard provides a complete view of customer churn behavior throu
 
 ## 🚀 Outcome  
 
-This project demonstrates how customer data can be transformed into **actionable business insights** using Power BI.  
+This project demonstrates how customer data can be transformed into actionable insights using **Power BI**.  
 
-### 🔥 Skills Demonstrated  
+The dashboard is designed to support:
+- Business teams analyzing customer retention  
+- Product teams identifying churn patterns  
+- Decision-makers improving customer experience  
 
-- Customer churn & retention analysis  
-- Customer segmentation  
-- KPI design & dashboard storytelling  
-- Business insight generation  
-- Data-driven decision making  
+Key skills demonstrated through this task:
+- Customer churn analysis  
+- Segmentation and retention insights  
+- KPI design and dashboard development  
+- Business-focused data storytelling  
 
 ---
 
@@ -166,20 +139,14 @@ This project demonstrates how customer data can be transformed into **actionable
 
 This project was completed as part of the **Future Interns — Data Science & Analytics Internship Program (2026)**.  
 
-https://www.linkedin.com/company/future-interns/  
+👉 https://www.linkedin.com/company/future-interns/  
 
 ---
 
 ## 📢 Conclusion  
 
-Customer retention is a critical factor in subscription-based businesses.  
-
-This project highlights how analyzing churn patterns helps businesses:  
-
-- Reduce customer loss  
-- Improve engagement  
-- Increase long-term revenue  
+This task highlights the importance of customer retention in subscription-based businesses. By analyzing churn patterns and customer behavior, organizations can take data-driven actions to reduce churn, improve engagement, and increase long-term revenue.  
 
 ---
 
-⭐ If you found this useful, feel free to star the repository!
+⭐ If you found this useful, feel free to star the repo and share your feedback!
